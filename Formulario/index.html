@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+    <script src="https://kit.fontawesome.com/5656ac697c.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap" rel="stylesheet">
     <link rel='stylesheet' href='../css/BeMyGuest.css'>
 </head>
@@ -56,17 +57,74 @@
                 </li>
             </ul>
         </div>
-    </nav>>
+    </nav>
+    <!--FORM DE CONTACTO-->
 
+    <!--CONTACTO-->
+    <br clear="all">
+    <br clear="all">
+    <br clear="all">
+    <div class="container" id="formDeContacto">
+        <div class="row">
+
+            <img class="col-mb-4 rounded-circle" src="../img/BMGLogoTblack.png" alt="Logo" width="150" height="150">
+            <div class="col-mb-4 ">
+                <h2>
+                    Contáctanos!
+                </h2>
+                <p>En breve responderemos tu consulta <i class="fa-solid fa-hat-chef"></i></i></p>
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <form id="formulario" method="POST" name="smtp" class="col-md-12">
+
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="nombre" placeholder="Nombre" required>
+                            <small id="nombreId" class="form-text text muted"></small>
+                        </div>
+
+                        <div class="form-group">
+
+                            <input type="email" class="form-control" id="email" placeholder="Email" required>
+                            <small id="emailId" class="form-text text muted"></small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="mensaje">Dejanos tu mensaje</label>
+                            <textarea class="form-control" id="mensaje" placeholder="Tu consulta aquí..."></textarea>
+                            <small id="mensajeId" class="form-text text muted"></small>
+                        </div>
+
+                        <!--<button type="submit" value="enviar" class="btn btn-secondary w-100">Enviar Consulta</button>-->
+                        <input class="btn btn-secondary w-100" type="button" value="Enviar Consulta"
+                            onclick="sendEmail()" />
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <hr class="featurette-divider">
     <!-- START FOOTER -->
-    <footer class="bg-dark p-3 mt-5">
-        <p class="text-center m-0 text-muted">Be My Guest</p>
-    </footer>
+    <!--Footer con links a redes sociales-->
+    <br class="all">
+    <div class="footer" id="footercompletoBMG">
+
+        <ul class="list-inline">
+            <div class="footer-links">
+                <li><a href="https://www.instagram.com/vi_sybilla/?hl=es-la"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+            </div>
+        </ul>
+        <div class="footer-BMG">Be My Guest<i class="fa-solid fa-hat-chef"></i>
+        </div>
+    </div>
     <!-- END FOOTER -->
 
 
 
-
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <!-- SCRIPTS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
