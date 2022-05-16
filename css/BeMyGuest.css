@@ -112,10 +112,12 @@ body {
     width: 175px;
     margin-right: 25px;
     border-radius: 25px;
+    display:inline-flex;
 }
 
 .item-desc {
     display: inline;
+    padding:15%;
 
 
 }
@@ -182,7 +184,7 @@ body {
     background: #F4F4F4;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content:center;
     height: 100px;
     padding: 0px 50px;
     color: rgba(0, 0, 0, 0.3);
