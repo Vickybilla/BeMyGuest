@@ -2,6 +2,13 @@ body {
     padding-bottom: 20px;
 }
 
+/*modifica color del boton en el carousel*/
+.boton {
+    background-color: #6A3030;
+    color: #C0C0C0;
+    border-color: #6A3030;
+}
+
 .navbar {
     margin-bottom: 10px;
     display: flex;
