@@ -1,0 +1,45 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+<menu>
+<food>
+    <name>Pizza Muzzarella</name>
+    <price>$9.99</price>
+    <description>
+   Clásica pizza de muzzarella, salsa de tomate y orégano
+   </description>
+</food>
+<food>
+    <name>Pizza Fugazzetta</name>
+    <price>$9.99</price>
+    <description>
+    Tradicional pizza de cebolla y queso
+    </description>
+</food>
+<food>
+    <name>Pizza Provolone</name>
+    <price>$9.99</price>
+    <description>
+    Pizza con muzzarella y provolone
+    </description>
+</food>
+<food>
+    <name>Pizza Jamón</name>
+    <price>$19.99</price>
+    <description>
+    Pizza con muzzarella, jamón, salsa de tomate y orégano
+    </description>
+</food>
+<food>
+    <name>Pizza Napolitana</name>
+    <price>$19.99</price>
+    <description>
+    Pizza con muzzarella, rodajas de tomate y ajo
+    </description>
+</food>
+<food>
+    <name>Pizza Calabresa</name>
+    <price>$6.99</price>
+    <description>
+    Pizza con muzzarella, cantimpalo, rodajas de tomate, ajo y orégano
+    </description>
+</food>
+</menu> 
