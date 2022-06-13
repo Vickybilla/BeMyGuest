@@ -18,7 +18,9 @@
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
     <script src="https://kit.fontawesome.com/5656ac697c.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
     <link rel='stylesheet' href='/css/BeMyGuest.css'>
 </head>
 
@@ -59,10 +61,10 @@
 
     <!-- START SECTION STORE -->
     <br clear="all">
-        <br clear="all">
-        <br clear="all>">
+    <br clear="all">
+    <br clear="all>">
     <main role="main">
-        
+
         <div id="carouselBMG" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselBMG" data-slide-to="0" class="active"></li>
@@ -76,7 +78,7 @@
                     <rect width="100%" height="100%" alt="Pancakes"></rect></img>
                     <div class="container">
                         <div class="carousel-caption text-left font-italic " id="txtcar1">
-                            <h1>Be My Guest</h1>
+                            <h1><b>Be My Guest</b></h1>
                             <p><b>Scaneá, elegí, pagá y disfrutá en tu mesa</b></p>
                             <p><a class="btn btn-lg btn-secondary boton" href="About/index.html" role="button">Quienes
                                     Somos</a></p>
@@ -89,21 +91,23 @@
                     <rect width="100%" height="100%" alt="Black mask"></rect></img>
                     <div class="container">
                         <div class="carousel-caption font-italic " id="txtcar2">
-                            <h1>Novedades</h1>
-                            <p>No te olvides la propina!</p>
-                            <p><a class="btn btn-lg btn-secondary boton" href="#Novedades" role="button">Novedades (in progress)</a></p>
+                            <h1>No te olvides la propina!</h1>
+                            <button type="button" class="btn btn-lg btn-secondary boton" data-toggle="modal" data-target="#myModal">
+                                NOVEDADES
+                            </button>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="img\pizza.png" class="bd-placeholder-img" width="100%" height="100%"
+                    <img src="img/pizza.png" class="bd-placeholder-img" width="100%" height="100%"
                         preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
                     <rect width="100%" height="100%" alt="Pizza"></rect></img>
                     <div class="container">
                         <div class="carousel-caption text-right font-italic " id="txtcar3">
-                            <h1>Be My Guest</h1>
+                            <h1><b>Be My Guest</b></h1>
                             <p id="p1">Pedí tu presupuesto.</p>
-                            <p><a class="btn btn-lg btn-secondary boton" href="Formulario/index.html" role="button">Contanos
+                            <p><a class="btn btn-lg btn-secondary boton" href="Formulario/index.html"
+                                    role="button">Contanos
                                     qué necesitas</a></p>
                         </div>
                     </div>
@@ -119,18 +123,47 @@
             </a>
         </div>
 
+        <div class="container">
+            <!-- The Modal -->
+            <div class="modal fade" id="myModal">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                            <h4 class="modal-title">Propina con BMG</h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            <img src="img/novedadesbmg.png" class="bd-placeholder-img" width="100%" height="100%"
+                            preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
+                        </div>
+
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
         <!-- START FOOTER -->
         <div class="footer" id="footercompletoBMG">
             <ul class="list-inline">
                 <div class="footer-links">
-                    <li><a href="https://www.instagram.com/vi_sybilla/?hl=es-la"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://www.instagram.com/vi_sybilla/?hl=es-la"><i
+                                class="fa-brands fa-instagram"></i></a></li>
                     <div class="footer-BMG">Be My Guest <i class="fa-solid fa-hat-chef"></i>
-                </div>
+                    </div>
             </ul>
-            </div>
+        </div>
         </div>
         <!-- END FOOTER -->
-    
+
         <!-- SCRIPTS -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
             integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
