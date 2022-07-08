@@ -1,5 +1,5 @@
 body {
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -297,4 +297,15 @@ body {
 .footer .fa-hat-chef {
     color: #1f1c27;
     display: inline;
+}
+
+.footerBMG2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    text-align: center;
+    display: block;
 }
